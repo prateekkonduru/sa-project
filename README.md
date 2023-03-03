@@ -32,6 +32,6 @@ terraform plan
 terraform apply
 ```
 
-Additional Requirements for Email Notification:
+## Additional Requirements for Email Notification:
 
 In the lambda function please enter SNS_ARN and AWS_ACCESS_KEY_ID="anaccesskey",AWS_SECRET_ACCESS_KEY="asecretkey", AWS_REGION="us-west-2" in env variables of the configuration tab
