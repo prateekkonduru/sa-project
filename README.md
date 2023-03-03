@@ -10,25 +10,7 @@ A vendor needs to upload a file to an S3 bucket every day for reporting purposes
 The candidate will Terraform the creation of AWS resources to help solve this problem.  The candidate will also be expected to provide an output file as well as a tfvars file.  We expect all modules and resources created to use variables as that is best practice in Terraform.  The Terraform will be tested by our team to make sure it applies and deploys properly.  Please provide a link to the repo this code is stored in, we will not accept a zip file.
  
 ## How it works
-### Deploying Infrastructure 
 
-1. Navigate to the terraform folder
-2. Setup AWS Profile 
-```
-aws-login testpayer
-```
-3. Initiate Terraform 
-```
-AWS_PROFILE=testpayer terraform init
-```
-4. Plan terraform 
-```
-AWS_PROFILE=testpayer terraform plan
-```
-5. Apply terraform 
-```
-AWS_PROFILE=testpayer terraform apply
-```
 ### Deploying Infrastructure 
 
 1. Setup AWS Profile 
